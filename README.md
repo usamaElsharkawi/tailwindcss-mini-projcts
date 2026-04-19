@@ -10,28 +10,6 @@ I am following the comprehensive course by Brad Traversy:
 - **Instructor:** Brad Traversy
 - **Focus:** Building real-world projects while mastering core utility classes and modern v4 features.
 
-> **Note:** While the course is based on **Tailwind CSS v3**, we are using our AI teaching stack to fill the gap between v3 and v4, ensuring we understand the latest architectural shifts and new features.
-
----
-
-## 🛠️ AI-Powered Learning Environment
-
-> **"We don't just use the utilities; we uncover the internals."**
-
-To ensure a deep understanding of not just _how_ to use Tailwind, but _why_ it works the way it does, this journey is supported by an advanced AI teaching stack:
-
-| Entity                    | Role & Expertise                                                                                                                                                                                                                                           |
-| :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **🚀 Google Antigravity** | **Senior Instructor:** Provides architectural guidance, modern v4 best practices, and project structure optimization.                                                                                                                                      |
-| **🧠 Gemini 3**           | **Intellectual Engine:** Parses complex design patterns, explains advanced CSS concepts (OKLCH, Container Queries, 3D Transforms), and ensures logical code flow.                                                                                          |
-| **🔍 Code Wiki**          | **Internal Exploration:** We dive into the [Official Tailwind CSS GitHub Repository](https://github.com/tailwindlabs/tailwindcss) to analyze how the engine compiles, how constraints are defined, and how the new **Oxide engine** optimizes performance. |
-
----
-
-### 🌟 Key Focus: The v4 Revolution
-
-In this journey, we prioritize the **v4 features**, moving beyond traditional configuration into a **CSS-First** mindset using the **Oxide Engine**.
-
 ---
 
 ## 🏗️ Project Timeline & Learning Logs
@@ -42,7 +20,23 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 - **Symmetry & Balance:** Aligning content within a flex-container while maintaining typography hierarchy.
 - **Variable-First Design:** Transitioned from inline classes to custom `@theme` variables for brand identity.
 - **Container Queries:** Implemented `@container` logic to make the component portable across any layout width.
-- **Learning Goal:** Mastering the transition from media-queries (viewport) to container-queries (card-size).
+
+### 💎 Project 2: Pricing Cards
+*Focus: Visual Hierarchy, 3D Layering, and Resilient Design Tokens.*
+
+- **Visual Psychology:** Learned the "Z-Index Lift" strategy, using `scale-105` and `z-10` to break the 2D plane and guide user decision-making.
+- **Resilient Theme Design:** Implemented opacity-based borders (`border-slate-600/50`) to ensure UI adaptability across different background environments.
+- **Micro-Typography:** Leveraged `uppercase` and `tracking-widest` to create professional, senior-level card headers.
+
+---
+
+## ⚡ Architectural Deep Dive: Visual Psychology
+
+In Project 2, we moved beyond just "adding colors" and started engineering the **User's Eye Path**:
+
+1.  **Breaking the Plane:** By scaling the middle card and adjusting its `z-index`, we force the browser to treat it as a separate layer. This mimics real-world physical objects, making the "Standard" plan feel more tangible.
+2.  **Harmonious Sizing:** In Tailwind v4, spacing values are mathematically derived. Using `gap-6` and `p-8` ensures that the "White Space" feels intentional and balanced across all screen sizes.
+3.  **Dynamic Transparency:** Using colors like `purple-400/30` means your design isn't "Hardcoded." It's "Reactive"—it inherits the light and dark of the environment it lives in.
 
 ---
 
