@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pricing cards</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-slate-800 p-6">
+      <!-- Cards Container -->
+      <div class="flex flex-col md:flex-row gap-6 my-6 md:my-0">
+        
+        <!-- Card 1: Basic -->
+        <div class="bg-slate-700 p-8 rounded-2xl border border-slate-600 shadow-xl w-72 transition-all hover:scale-105 duration-300">
+          <div class="text-center">
+            <h3 class="uppercase text-sm tracking-widest text-slate-300 mb-8">Basic</h3>
+            <h2 class="text-5xl font-serif text-white mb-2">100GB</h2>
+            <p class="text-slate-400 mb-8">$1.99/month</p>
+            <button class="w-full py-3 border border-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors mb-8">
+              Purchase
+            </button>
+            
+            <!-- Features -->
+            <div class="pt-8 border-t border-slate-600/50">
+              <ul class="flex flex-col gap-4 text-sm text-left">
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>100 GB storage</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Option to add members</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Extra member benefits</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Standard (Highlighted) -->
+        <div class="bg-purple-700 p-8 rounded-2xl border-4 border-purple-500 shadow-2xl w-72 scale-105 z-10 transition-all duration-300">
+          <div class="text-center">
+            <h3 class="uppercase text-sm tracking-widest text-white mb-8 font-bold">Standard</h3>
+            <h2 class="text-5xl font-serif text-white mb-2">200GB</h2>
+            <p class="text-purple-100 mb-8">$3.99/month</p>
+            <button class="w-full py-3 bg-white text-purple-700 rounded-lg hover:bg-purple-100 font-bold transition-colors mb-8 shadow-lg">
+              Purchase
+            </button>
+
+            <!-- Features -->
+            <div class="pt-8 border-t border-purple-400/30">
+              <ul class="flex flex-col gap-4 text-sm text-left">
+                <li class="flex items-center gap-3 text-white">
+                  <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>200 GB storage</span>
+                </li>
+                <li class="flex items-center gap-3 text-white">
+                  <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Option to add members</span>
+                </li>
+                <li class="flex items-center gap-3 text-white">
+                  <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Extra member benefits</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Premium -->
+        <div class="bg-slate-700 p-8 rounded-2xl border border-slate-600 shadow-xl w-72 transition-all hover:scale-105 duration-300">
+          <div class="text-center">
+            <h3 class="uppercase text-sm tracking-widest text-slate-300 mb-8">Premium</h3>
+            <h2 class="text-5xl font-serif text-white mb-2">2TB</h2>
+            <p class="text-slate-400 mb-8">$8.99/month</p>
+            <button class="w-full py-3 border border-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors mb-8">
+              Purchase
+            </button>
+
+            <!-- Features -->
+            <div class="pt-8 border-t border-slate-600/50">
+              <ul class="flex flex-col gap-4 text-sm text-left">
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>2 TB storage</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Option to add members</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-300">
+                  <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Extra member benefits</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
