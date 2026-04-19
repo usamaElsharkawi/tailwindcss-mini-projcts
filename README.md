@@ -28,6 +28,14 @@ I am following the comprehensive course by Brad Traversy:
 - **Resilient Theme Design:** Implemented opacity-based borders (`border-slate-600/50`) to ensure UI adaptability across different background environments.
 - **Micro-Typography:** Leveraged `uppercase` and `tracking-widest` to create professional, senior-level card headers.
 
+### 🛍️ Project 3: Product Modal
+*Focus: Interface Friction, Chromatic Contrast, and Semantic Symmetry.*
+
+- **Friction Engineering:** Mastered the concepts of "Low Friction" vs "High Friction" UI. Used solid color blocks for primary destinations and hollow outlines for secondary utilities.
+- **Chromatic Atmosphere:** Switched from neutral gray shadows to "Glowing Shadows" using `shadow-blue-200` to enhance brand energy.
+- **Typography Scarcity:** Applied italicized micro-copy to simulate motion and urgency in stock-limited offers.
+- **Symmetry Control:** Utilized `flex-1` across split-layout containers to ensure a mathematically perfect 50/50 distribution of visual weight.
+
 ---
 
 ## ⚡ Architectural Deep Dive: Visual Psychology
@@ -37,6 +45,16 @@ In Project 2, we moved beyond just "adding colors" and started engineering the *
 1.  **Breaking the Plane:** By scaling the middle card and adjusting its `z-index`, we force the browser to treat it as a separate layer. This mimics real-world physical objects, making the "Standard" plan feel more tangible.
 2.  **Harmonious Sizing:** In Tailwind v4, spacing values are mathematically derived. Using `gap-6` and `p-8` ensures that the "White Space" feels intentional and balanced across all screen sizes.
 3.  **Dynamic Transparency:** Using colors like `purple-400/30` means your design isn't "Hardcoded." It's "Reactive"—it inherits the light and dark of the environment it lives in.
+
+---
+
+## ⚡ Architectural Deep Dive: Interface Friction
+
+In Project 3, we transitioned from "making it look good" to **Engineering the User's Reflexes**:
+
+1.  **Fitts's Law in Action:** By maximizing the blue "Add to Cart" button, we created a high-probability target. This is "Low Friction" design—the user converts without searching.
+2.  **Cognitive Gaps:** The "Wishlist" and "Compare" buttons are intentional "High Friction" points. They require deliberate focus, ensuring that secondary actions don't distract from the primary revenue goal.
+3.  **Color Temperature:** We learned that shadows are not just "darkness"—they are reflections. Using blue-tinted shadows on a blue button creates a cohesive atmospheric glow that feels premium and native.
 
 ---
 
