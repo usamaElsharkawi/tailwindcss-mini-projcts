@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Images Gallary</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-cyan-50 p-6">
+      <!-- Outer Card -->
+      <div class="bg-white p-6 md:p-12 rounded-3xl shadow-2xl w-full max-w-6xl">
+        <!-- Top Navigation Menu -->
+        <nav
+          class="flex flex-col md:flex-row items-center justify-end gap-6 md:gap-10 mb-10 text-slate-600 font-medium"
+        >
+          <a href="#" class="hover:text-black transition-colors">Vector</a>
+          <a href="#" class="hover:text-black transition-colors"
+            >Illustrations</a
+          >
+          <a
+            href="#"
+            class="hover:text-black transition-colors underline decoration-black underline-offset-4 decoration-2"
+            >Images</a
+          >
+          <a href="#" class="hover:text-black transition-colors">Icons</a>
+        </nav>
+
+        <!-- Search and Upload Section -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-6 mb-12"
+        >
+          <!-- Minimalist Search -->
+          <div
+            class="flex items-center justify-between border-b border-slate-200 w-full md:max-w-md pb-2 group"
+          >
+            <input
+              type="text"
+              placeholder="Search"
+              class="outline-none w-full placeholder:text-slate-300"
+            />
+            <svg
+              class="w-6 h-6 text-slate-300 group-focus-within:text-black transition-colors"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              ></path>
+            </svg>
+          </div>
+          <!-- Upload Button -->
+          <button
+            class="bg-black text-white px-10 py-3 rounded-lg shadow-xl shadow-slate-200 hover:opacity-80 active:scale-95 transition-all w-full md:w-auto"
+          >
+            Upload
+          </button>
+        </div>
+
+        <!-- The Image Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Image 1 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image1.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">
+                  Abstract Portrait
+                </p>
+                <p class="text-white/70 text-xs">8.2k likes • 2k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image2.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">Old Window</p>
+                <p class="text-white/70 text-xs">5.1k likes • 1.2k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image3.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">
+                  Modern Architecture
+                </p>
+                <p class="text-white/70 text-xs">12k likes • 5k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image4.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">Desert Patterns</p>
+                <p class="text-white/70 text-xs">9.4k likes • 3k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image5.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">City Jungle</p>
+                <p class="text-white/70 text-xs">15k likes • 8k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="relative group overflow-hidden rounded-xl cursor-pointer">
+            <img
+              src="./images/image6.jpg"
+              class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between"
+            >
+              <div>
+                <p class="text-white text-sm font-semibold">Textures</p>
+                <p class="text-white/70 text-xs">4.2k likes • 1k views</p>
+              </div>
+              <img src="./images/bookmark.svg" class="w-5 h-5 invert" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

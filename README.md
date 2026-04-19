@@ -36,6 +36,24 @@ I am following the comprehensive course by Brad Traversy:
 - **Typography Scarcity:** Applied italicized micro-copy to simulate motion and urgency in stock-limited offers.
 - **Symmetry Control:** Utilized `flex-1` across split-layout containers to ensure a mathematically perfect 50/50 distribution of visual weight.
 
+### 🖼️ Project 4: Image Gallery
+*Focus: Progressive Disclosure, Optical Bleeding, and Grid Stability.*
+
+- **Progressive Disclosure:** Built a minimalist search interface that "awakens" only on interaction (`group-focus-within`), prioritizing visual content over UI chrome.
+- **Optical Bleeding:** Replaced solid overlays with alpha-blended gradients (`bg-gradient-to-t`) to ensure text legibility while maintaining image immersion.
+- **Grid Stability:** Enforced strict `aspect-[4/3]` constraints combined with `object-cover` to create a professional, uniform masonry-style layout regardless of source image dimensions.
+- **Micro-Rewards:** Engineered a dual-feedback hover state (zoom + slide-up menu) to create a playful "Discovery Loop" for the user.
+
+---
+
+## ⚡ Architectural Deep Dive: Discovery Systems
+
+In Project 4, we moved into **Multi-Item Orchestration**:
+
+1.  **Constraint as Luxury:** We learned that forcing images into a shared aspect ratio (`4/3`) isn't a limitation—it's a hallmark of premium design. It replaces visual chaos with rhythmic stability.
+2.  **State-Aware Icons:** Utilized `group-focus-within` to create a visual bridge between the input and the search icon, making the header feel like a single reactive unit.
+3.  **CSS Internal Logic:** Used the `invert` utility to dynamically theme SVG assets without modifying the source files—a key strategy for rapid development in v4.
+
 ---
 
 ## ⚡ Architectural Deep Dive: Visual Psychology
