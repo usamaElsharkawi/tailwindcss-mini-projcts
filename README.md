@@ -21,12 +21,18 @@ I am following the comprehensive course by Brad Traversy:
 - **Variable-First Design:** Transitioned from inline classes to custom `@theme` variables for brand identity.
 - **Container Queries:** Implemented `@container` logic to make the component portable across any layout width.
 
+#### 📸 Preview
+![Email Subscribe Card](./screens/image.png)
+
 ### 💎 Project 2: Pricing Cards
 *Focus: Visual Hierarchy, 3D Layering, and Resilient Design Tokens.*
 
 - **Visual Psychology:** Learned the "Z-Index Lift" strategy, using `scale-105` and `z-10` to break the 2D plane and guide user decision-making.
 - **Resilient Theme Design:** Implemented opacity-based borders (`border-slate-600/50`) to ensure UI adaptability across different background environments.
 - **Micro-Typography:** Leveraged `uppercase` and `tracking-widest` to create professional, senior-level card headers.
+
+#### 📸 Preview
+![Pricing Cards](./screens/image%20copy.png)
 
 ### 🛍️ Project 3: Product Modal
 *Focus: Interface Friction, Chromatic Contrast, and Semantic Symmetry.*
@@ -36,6 +42,9 @@ I am following the comprehensive course by Brad Traversy:
 - **Typography Scarcity:** Applied italicized micro-copy to simulate motion and urgency in stock-limited offers.
 - **Symmetry Control:** Utilized `flex-1` across split-layout containers to ensure a mathematically perfect 50/50 distribution of visual weight.
 
+#### 📸 Preview
+![Product Modal](./screens/image%20copy%204.png)
+
 ### 🖼️ Project 4: Image Gallery
 *Focus: Progressive Disclosure, Optical Bleeding, and Grid Stability.*
 
@@ -44,6 +53,9 @@ I am following the comprehensive course by Brad Traversy:
 - **Grid Stability:** Enforced strict `aspect-[4/3]` constraints combined with `object-cover` to create a professional, uniform masonry-style layout regardless of source image dimensions.
 - **Micro-Rewards:** Engineered a dual-feedback hover state (zoom + slide-up menu) to create a playful "Discovery Loop" for the user.
 
+#### 📸 Preview
+![Image Gallery](./screens/image%20copy%202.png)
+
 ### 🔐 Project 5: Login Modal
 *Focus: Visual Anchoring, Atmospheric Brand Aura, and Glassmorphism.*
 
@@ -51,6 +63,9 @@ I am following the comprehensive course by Brad Traversy:
 - **Atmospheric Zoning:** Orchestrated a 50/50 split layout that hides environmental visuals on mobile (`md:block`) while maintaining brand aura on desktop.
 - **Glassmorphic Interactivity:** Applied `backdrop-blur-sm` to secondary control elements to ensure legibility across complex oceanic visual backgrounds.
 - **Success Path Engineering:** Leveraged high-contrast chromatic differentials between primary actions and secondary "safety nets" (Forgot password) to optimize conversion flow.
+
+#### 📸 Preview
+![Login Modal](./screens/image%20copy%203.png)
 
 ---
 
