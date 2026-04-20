@@ -44,6 +44,24 @@ I am following the comprehensive course by Brad Traversy:
 - **Grid Stability:** Enforced strict `aspect-[4/3]` constraints combined with `object-cover` to create a professional, uniform masonry-style layout regardless of source image dimensions.
 - **Micro-Rewards:** Engineered a dual-feedback hover state (zoom + slide-up menu) to create a playful "Discovery Loop" for the user.
 
+### 🔐 Project 5: Login Modal
+*Focus: Visual Anchoring, Atmospheric Brand Aura, and Glassmorphism.*
+
+- **Visual Anchoring:** Implemented a Serif-headed typography stack (`font-serif`) to establish a traditional, high-trust "Authority Point" for secure authentication.
+- **Atmospheric Zoning:** Orchestrated a 50/50 split layout that hides environmental visuals on mobile (`md:block`) while maintaining brand aura on desktop.
+- **Glassmorphic Interactivity:** Applied `backdrop-blur-sm` to secondary control elements to ensure legibility across complex oceanic visual backgrounds.
+- **Success Path Engineering:** Leveraged high-contrast chromatic differentials between primary actions and secondary "safety nets" (Forgot password) to optimize conversion flow.
+
+---
+
+## ⚡ Architectural Deep Dive: Atmospheric Experience
+
+In Project 5, we moved beyond utility into **Environmental Brand Engineering**:
+
+1.  **Luxe Padding:** Embraced "Negative Space" (`p-16`) to create a spacious, premium feel that reduces user "Input Anxiety" during sensitive data entry.
+2.  **Noise Reduction:** Specifically engineered a "Loudness Hierarchy" by quietening instructional micro-copy (`text-slate-400`) once the context was established, letting the **Primary Action** dominate the screen.
+3.  **Constraint-Aware Buttons:** Transitioned from `w-full` mobile buttons to `w-auto` desktop buttons to maintain component elegance across disparate device viewports.
+
 ---
 
 ## ⚡ Architectural Deep Dive: Discovery Systems
